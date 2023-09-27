@@ -1,5 +1,5 @@
-V_DB = /Users/aaammari/Desktop/db
-V_WP = /Users/aaammari/Desktop/wp
+V_DB = /home/aaammari/data/db
+V_WP = /home/aaammari/data/wp
 
 RM_VLS = $(shell docker volume ls -q)
 

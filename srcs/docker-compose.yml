@@ -43,13 +43,13 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /Users/aaammari/Desktop/db
+      device: /home/aaammari/data/db
       o: bind
   wordpress:
     driver: local
     driver_opts:
       type: none
-      device: /Users/aaammari/Desktop/wp
+      device: /home/aaammari/data/wp
       o: bind
 networks:
   inception:
